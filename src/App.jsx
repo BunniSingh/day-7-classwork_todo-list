@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef } from 'react';
 import './App.css'
 import Swal from 'sweetalert2';
 import { MdOutlineDeleteOutline } from "react-icons/md";
@@ -27,7 +27,7 @@ function App() {
       Swal.fire({
         position: "top-end",
         icon: "error",
-        title: "Your work has been saved",
+        title: "Please enter your work",
         showConfirmButton: false,
         timer: 1500
       });
